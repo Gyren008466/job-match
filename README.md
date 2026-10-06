@@ -13,7 +13,7 @@
 需要 Git、Node.js 和 npm。在准备使用 Codex 的项目目录打开 PowerShell，运行：
 
 ```powershell
-npx --yes skills add https://github.com/Gyren008/job-match --skill job-match --agent codex --copy -y
+npx --yes skills add https://github.com/Gyren008466/job-match --skill job-match --agent codex --copy -y
 npm ci --prefix .agents/skills/job-match
 ```
 
@@ -22,7 +22,7 @@ npm ci --prefix .agents/skills/job-match
 不使用 Skills CLI 时，也可以把本仓库直接克隆到用户目录下的 `.codex/skills/job-match`：
 
 ```powershell
-git clone https://github.com/Gyren008/job-match.git "$HOME\.codex\skills\job-match"
+git clone https://github.com/Gyren008466/job-match.git "$HOME\.codex\skills\job-match"
 npm ci --prefix "$HOME\.codex\skills\job-match"
 ```
 
